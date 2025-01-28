@@ -1,224 +1,209 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiran P - Resume</title>
+    <title>P Kiran - Resume</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #141414;
             color: #ffffff;
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
+
         header {
             text-align: center;
-            margin-bottom: 40px;
+            padding: 40px 20px;
             background-color: #e50914;
-            padding: 20px;
-            border-radius: 8px;
+            color: #ffffff;
         }
-        h1 {
-            font-size: 3em;
+
+        header h1 {
+            font-size: 3rem;
             margin: 0;
         }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-top: 10px;
-            border: 3px solid #ffffff; /* Optional border for better visual appeal */
-            border-radius: 8px; /* Rounded corners for a softer look */
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
         }
-        h2 {
-            font-size: 2em;
-            color: #e50914;
-            border-bottom: 2px solid #e50914;
-            padding-bottom: 10px;
-            margin-top: 20px;
+
+        .contact-info a {
+            color: #ffffff;
+            text-decoration: none;
         }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
         section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             padding: 20px;
             background-color: #2c2c2c;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
         }
-        .job-title {
-            font-weight: bold;
-            font-size: 1.5em;
+
+        section h2 {
+            font-size: 2rem;
             color: #e50914;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e50914;
+            display: inline-block;
         }
-        .contact-info {
-            margin: 10px 0;
-            font-size: 1.2em;
+
+        ul {
+            list-style: none;
+            padding: 0;
         }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.8em;
-            color: #999;
+
+        li {
+            margin-bottom: 10px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 10px;
+            margin-top: 20px;
         }
+
         th, td {
             padding: 10px;
             border: 1px solid #e50914;
             text-align: left;
         }
+
         th {
             background-color: #e50914;
             color: #ffffff;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        footer {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 0.9rem;
+            color: #999;
         }
-        li {
-            margin-bottom: 5px;
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #e50914;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>P Kiran</h1>
+        <p class="contact-info">📞 9940327375 | ✉️ <a href="mailto:kirankarthi.exe@gmail.com">kirankarthi.exe@gmail.com</a></p>
+    </header>
 
-<header>
-    <h1>P Kiran</h1>
-    <img src=p.kiran.jpg alt="Profile Picture" class="profile-pic">
-    <div class="contact-info">
-        <p>📞 9962267375 | ✉️ <a href="mailto:kirankarthi.exe@gmail.com" style="color: #ffffff;">kirankarthi.exe@gmail.com</a></p>
-    </div>
-</header>
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                Dynamic .NET Developer with a proven background in web application development, specializing in .NET and SQL.
+                Experienced in delivering projects ahead of schedule, enhancing team performance, and solving complex problems with innovative solutions.
+                Dedicated to continuous learning and contributing to collaborative environments to achieve professional growth and user satisfaction.
+            </p>
+        </section>
 
-<section>
-    <h2>Summary</h2>
-    <p>Enthusiastic .NET Full stack developer with a year of experience in designing, developing, and optimizing web applications. Proficient in C, ASP.NET, and SQL, with a solid understanding of MVC architecture. Passionate about solving complex problems and collaborating effectively in team environments to achieve project success.</p>
-</section>
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Programming Languages</td>
+                    <td>C#, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Frameworks</td>
+                    <td>.NET Core, ASP.NET MVC, ASP.NET Core MVC, Entity Framework</td>
+                </tr>
+                <tr>
+                    <td>Front-End Technologies</td>
+                    <td>HTML, CSS, Angular, jQuery, Bootstrap</td>
+                </tr>
+                <tr>
+                    <td>Databases</td>
+                    <td>Microsoft SQL Server, MySQL, MongoDB</td>
+                </tr>
+                <tr>
+                    <td>Platforms</td>
+                    <td>Visual Studio, VS Code, SQL Server Management Studio (SSMS)</td>
+                </tr>
+                <tr>
+                    <td>Version Control</td>
+                    <td>Git, GitHub</td>
+                </tr>
+                <tr>
+                    <td>Testing</td>
+                    <td>NUnit, MSTest</td>
+                </tr>
+                <tr>
+                    <td>Deployment</td>
+                    <td>Docker, IIS</td>
+                </tr>
+            </table>
+        </section>
 
-<section>
-    <h2>Education</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Degree</th>
-                <th>Institution</th>
-                <th>Details</th>
-                <th>Year</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>B.E ECE</td>
-                <td>New Prince Shri Bhavani College of Engineering and Technology</td>
-                <td>CGPA: 8.34</td>
-                <td>2018 - 2022</td>
-            </tr>
-            <tr>
-                <td>HSC</td>
-                <td>Alpha Matriculation Higher Secondary School</td>
-                <td>Percentage: 70%</td>
-                <td>2017 - 2018</td>
-            </tr>
-            <tr>
-                <td>SSLC</td>
-                <td>Alpha Matriculation Higher Secondary School</td>
-                <td>Percentage: 91%</td>
-                <td>2015 - 2016</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+        <section>
+            <h2>Experience</h2>
+            <div>
+                <p class="job-title">.NET Developer (Associate Software Engineer)</p>
+                <p>Mphasis Ltd., Pune, IN | August 2023 – Present</p>
+                <ul>
+                    <li>Participated in all phases of the software development life cycle, from scoping and analysis to quality assurance and delivery.</li>
+                    <li>Designed and developed web pages, business logic, and data layers using .NET and C#.</li>
+                    <li>Built reliable and interoperable RESTful APIs with ASP.NET Web API and ensured quality with thorough schema validation and test cases.</li>
+                    <li>Leveraged MS SQL Server, MySQL, and Entity Framework to implement and deploy secure web applications.</li>
+                </ul>
+            </div>
+        </section>
 
-<section>
-    <h2>Technical Skills</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Skills</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Programming Languages</td>
-                <td>C, C#, JavaScript</td>
-            </tr>
-            <tr>
-                <td>Frameworks</td>
-                <td>.NET Core, ASP.NET MVC, ASP.NET Core MVC, Entity Framework</td>
-            </tr>
-            <tr>
-                <td>Front-End Technologies</td>
-                <td>HTML, CSS, Angular, jQuery, Bootstrap</td>
-            </tr>
-            <tr>
-                <td>Databases</td>
-                <td>Microsoft SQL Server, MySQL, MongoDB</td>
-            </tr>
-            <tr>
-                <td>Platforms</td>
-                <td>Visual Studio, VS Code, SQL Server Management Studio (SSMS)</td>
-            </tr>
-            <tr>
-                <td>Version Control</td>
-                <td>Git, GitHub</td>
-            </tr>
-            <tr>
-                <td>Testing</td>
-                <td>NUnit, MSTest, Postman</td>
-            </tr>
-            <tr>
-                <td>Deployment</td>
-                <td>Docker, Azure, IIS</td>
-            </tr>
-            <tr>
-                <td>Operating Systems</td>
-                <td>Windows, Linux</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+        <section>
+            <h2>Projects</h2>
+            <div>
+                <p class="job-title">Southwest Business Corporation</p>
+                <p><strong>April 2024 – Present</strong></p>
+                <ul>
+                    <li>Contributing to development efforts for critical business processes, ensuring scalable and efficient solutions.</li>
+                </ul>
 
-<section>
-    <h2>Professional Experience</h2>
-    <div>
-         <div class="job-title">Associate Software Engineer - Mphasis Ltd.</div>
-        <p>Pune, IN | Oct 2024 - Present</p>
-        <div class="job-title">Trainee Associate Software Engineer - Mphasis Ltd.</div>
-        <p>Pune, IN | Aug 2023 - Sept 2024</p>
-        <ul>
-            <li>Analyzed business requirements and participated in the design, development, and testing of various modules.</li>
-            <li>Designed and developed web pages, business logic, and data layers using .NET and C#.</li>
-            <li>Wrote test cases and performed schema validation for APIs using Postman.</li>
-            <li>Developed RESTful web services using ASP.NET Web API, enhancing application interoperability.</li>
-            <li>Demonstrated strong technical knowledge in MS SQL Server and MySQL.</li>
-            <li>Implemented web applications utilizing C#, Web API, Entity Framework, and deployed on Azure and IIS.</li>
-        </ul>
-    </div>
-</section>
+                <p class="job-title">Insurance Policy Management Website</p>
+                <p><strong>August 2023 – March 2024</strong></p>
+                <ul>
+                    <li>Developed a robust web application with ASP.NET Core MVC, enabling efficient management of policies, customers, and agents through CRUD operations.</li>
+                    <li>Designed a responsive and intuitive interface using Bootstrap, implementing secure access with authentication and role-based authorization.</li>
+                    <li>Ensured data integrity with server-side validation and utilized Entity Framework Core for database operations.</li>
+                    <li>Successfully deployed the application on IIS, adhering to best practices for performance and security.</li>
+                </ul>
+            </div>
+        </section>
 
-<section>
-    <h2>Projects</h2>
-    <div>
-        <div class="job-title">Insurance Policy Management Website</div>
-        <ul>
-            <li>Developed a comprehensive insurance policy management tool using ASP.NET Core MVC.</li>
-            <li>Implemented CRUD operations for policies, customers, and agents, streamlining administrative tasks.</li>
-            <li>Designed a user-friendly interface with Bootstrap for enhanced navigation and interaction.</li>
-            <li>Integrated authentication and authorization for secure user access and role definition.</li>
-            <li>Ensured data integrity through server-side validation and used Entity Framework Core for database interactions.</li>
-            <li>Collaborated with team members to adhere to project requirements and best practices, successfully deploying the application on IIS.</li>
-        </ul>
-    </div>
-</section>
+        <section>
+            <h2>Personal Details</h2>
+            <ul>
+                <li><strong>Languages:</strong> English, Tamil, Hindi</li>
+                <li><strong>Strengths:</strong> Adaptability, Quick learner, Strong work ethics</li>
+                <li><strong>Certifications:</strong> Full Stack Development Course (Udemy) - Pursuing</li>
+            </ul>
+        </section>
+    </main>
 
-
-<footer>
-    <p>&copy; 2024 Kiran P. All rights reserved.</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2025 P Kiran. All rights reserved.</p>
+    </footer>
 </body>
 </html>
